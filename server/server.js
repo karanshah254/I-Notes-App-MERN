@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB Atlas
-const dbURI = "mongodb+srv://cekaran25:karan&25@cluster1.79reibe.mongodb.net/manage-notes";
+const dbURI = "your mongodb url";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define Note model
